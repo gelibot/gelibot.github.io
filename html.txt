@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angelica's Digital Diary</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #fdf5e6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #deb887;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #f4a460;
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+        }
+        .scrapbook img {
+            width: 100%;
+            max-width: 300px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: #deb887;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Angelica's Digital Diary</h1>
+        <p>Expression of daily living, life, and thoughts</p>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#contact">Contact</a>
+        <a href="#blog">Blog</a>
+        <a href="#scrapbook">Scrapbook</a>
+    </nav>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Angelica. Welcome to my digital diary where I share my daily musings, life experiences, and personal thoughts. Join me on this journey as I navigate through the simple pleasures of life.</p>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Feel free to reach out to me at: <a href="mailto:angelica@example.com">angelica@example.com</a></p>
+    </section>
+    <section id="blog">
+        <h2>Blog</h2>
+        <article>
+            <h3>My First Blog Post</h3>
+            <p>Today, I decided to start this digital diary to document my journey...</p>
+        </article>
+        <!-- Add more blog posts as needed -->
+    </section>
+    <section id="scrapbook" class="scrapbook">
+        <h2>Scrapbook</h2>
+        <img src="image1.jpg" alt="A cozy cottage">
+        <img src="image2.jpg" alt="A beautiful garden">
+        <!-- Add more images as needed -->
+    </section>
+    <footer>
+        <p>&copy; 2025 Angelica's Digital Diary</p>
+    </footer>
+</body>
+</html>
